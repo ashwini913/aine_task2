@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aine_task2/static/css/main.34b97acf.chunk.css",
+    "main.js": "/aine_task2/static/js/main.7e27ce4c.chunk.js",
+    "main.js.map": "/aine_task2/static/js/main.7e27ce4c.chunk.js.map",
+    "runtime-main.js": "/aine_task2/static/js/runtime-main.b36a3ffc.js",
+    "runtime-main.js.map": "/aine_task2/static/js/runtime-main.b36a3ffc.js.map",
+    "static/js/2.cdb52d6f.chunk.js": "/aine_task2/static/js/2.cdb52d6f.chunk.js",
+    "static/js/2.cdb52d6f.chunk.js.map": "/aine_task2/static/js/2.cdb52d6f.chunk.js.map",
+    "index.html": "/aine_task2/index.html",
+    "static/css/main.34b97acf.chunk.css.map": "/aine_task2/static/css/main.34b97acf.chunk.css.map",
+    "static/js/2.cdb52d6f.chunk.js.LICENSE.txt": "/aine_task2/static/js/2.cdb52d6f.chunk.js.LICENSE.txt",
+    "static/media/portalhomepage.38963afa.jpg": "/aine_task2/static/media/portalhomepage.38963afa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b36a3ffc.js",
+    "static/js/2.cdb52d6f.chunk.js",
+    "static/css/main.34b97acf.chunk.css",
+    "static/js/main.7e27ce4c.chunk.js"
+  ]
+}
