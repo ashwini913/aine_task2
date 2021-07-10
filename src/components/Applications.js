@@ -11,9 +11,9 @@ function Applications() {
         </div>
       );
     }
-    return JSON.parse(jobList).map((each) => {
+    return JSON.parse(jobList).map((each, i) => {
       return (
-        <div className="container">
+        <div key={i} className="container">
           <h5 className="jobHeader">{each.companyName}</h5>
           <ul type="none" className="applicationContainer">
             <li>Name:{each.name}</li>

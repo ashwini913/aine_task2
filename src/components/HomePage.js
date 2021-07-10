@@ -8,7 +8,7 @@ function HomePage() {
     <div className="home">
       <img src={portalImage} alt=""></img>
       <div className="cover">
-        <h4>Jobclues</h4>
+        <h4 className="text">Jobclues</h4>
         <p className="text">Find your dream job here</p>
         <div className="buttonContainer">
           <Link to="/recruiterspage">

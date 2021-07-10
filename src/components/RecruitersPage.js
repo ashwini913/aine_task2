@@ -65,7 +65,7 @@ function RecruitersPage() {
       description: description,
     };
     if (!dataArray) {
-      let array = [{ ...data }];
+      let array = [];
       array.push(data);
       localStorage.setItem("data", JSON.stringify(array));
     } else {
@@ -76,7 +76,7 @@ function RecruitersPage() {
   };
   return (
     <div className="formContainer">
-      <h5>Enter job details</h5>
+      <h1>Enter job details</h1>
       <form className="form" onSubmit={onInputSubmit} autoComplete="off">
         <input
           id="name"
