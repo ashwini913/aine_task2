@@ -159,7 +159,7 @@ function RecruitersPage() {
           className="input-text"
           onChange={onInputChange}
         ></input>
-        <input
+        <textarea
           type="text"
           id="description"
           name="description"
@@ -167,7 +167,7 @@ function RecruitersPage() {
           placeholder="Description"
           className="input-text"
           onChange={onInputChange}
-        ></input>
+        ></textarea>
         <button className="submit">Submit</button>
       </form>
     </div>

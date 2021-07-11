@@ -73,17 +73,17 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
   font-size: 55px;
 }
 .iconContainer p {
-  margin-top: 30px;
   font-size: 18px;
   color: steelblue;
 }
 .options {
   width: 100%;
   margin-top: 50px;
-  margin-left: 5%;
+  margin-left: 3%;
   padding: 60px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -98,4 +98,21 @@ img {
   align-items: center;
   font-size: 18px;
   color: white;
+}
+@media screen and (max-width: 800px) {
+  .options {
+    grid-template-columns: auto auto;
+    margin-left: 2%;
+  }
+  .iconContainer {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .iconContainer {
+    height: 160px;
+  }
+  .cover button {
+    width: 200px;
+  }
 }

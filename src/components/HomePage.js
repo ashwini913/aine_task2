@@ -35,7 +35,7 @@ function HomePage() {
         </div>
         <div className="iconContainer">
           <i className="ui chart line icon"></i>
-          <p>Accounting and Finance</p>
+          <p>Finance</p>
         </div>
         <div className="iconContainer">
           <i className="ui building icon"></i>
